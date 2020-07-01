@@ -9,3 +9,10 @@ class NombreDescripcion(models.Model):
 
     class Meta:
         db_table = 'nombre_descripcion'
+
+
+class DescripcionNombres(models.Model):
+    descripcion = models.TextField(blank=True, null=True)
+
+    class Meta:
+        db_table = 'descripcion_nombres'
