@@ -55,7 +55,8 @@ INSTALLED_APPS = [
     'rest_auth',
     'app.game_date',
     'app.game_name',
-    'app.game_tarot'
+    'app.game_tarot',
+    'app.options'
 ]
 
 MIDDLEWARE = [
