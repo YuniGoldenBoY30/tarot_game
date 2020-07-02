@@ -96,10 +96,13 @@ WSGI_APPLICATION = 'tarot.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'tarot',
+        'NAME': 'destino_api',
+        # 'NAME': 'tarot',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': '192.168.6.10',
+        # 'PASSWORD': 'postgres',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
+        # 'HOST': '192.168.6.10',
         'PORT': 5432,
     }
 }
