@@ -9,7 +9,7 @@ class SignoZodiacoSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class SignoCobNum(serializers.ModelSerializer):
+class SignoCobNumSerializer(serializers.ModelSerializer):
     class Meta:
         model = SignoCombNum
         fields = '__all__'

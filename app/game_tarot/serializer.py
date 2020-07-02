@@ -9,7 +9,7 @@ class CategoriaBasicaSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class ColorSerializar(serializers.ModelSerializer):
+class ColorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Color
         fields = '__all__'
